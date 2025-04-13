@@ -1,6 +1,6 @@
 # 🛍️ Full-Stack Product Management App
 
-This is a fully functional full-stack web application for managing products, built with a modern tech stack including **Node.js**, **Express**, **React**, **Tailwind CSS**, **Zustand**, **Neon (PostgreSQL)**, and deployed on **AWS**. The app supports all CRUD operations with advanced features like rate limiting, bot protection, responsive UI, and theme customization.
+This is a fully functional full-stack web application for managing products, built with a modern tech stack including **Node.js**, **Express**, **React**, **Tailwind CSS**, **Zustand**, **Neon (PostgreSQL)**, and deployed on **RENDER**. The app supports all CRUD operations with advanced features like rate limiting, bot protection, responsive UI, and theme customization.
 
 ## 🚀 Features
 
@@ -10,7 +10,7 @@ This is a fully functional full-stack web application for managing products, bui
 - Responsive UI with **Tailwind CSS** and **DaisyUI**
 - Theme selection and persistence using local storage
 - Optimized user experience with toast notifications and loading spinners
-- Deployed on **AWS** using services like EC2, S3 (for assets), and PostgreSQL via **Neon**
+- Deployed on Render . Quick and easy :)
 
 ## 🛠️ Tech Stack
 
@@ -53,23 +53,22 @@ Follow these steps to set it up on a new machine:
 
 ### 1. Clone the Repo
 
-\`\`\`bash
+
 git clone https://github.com/your-username/product-management-app.git
 cd product-management-app
-\`\`\`
+
 
 ### 2. Install Backend Dependencies
 
-\`\`\`bash
+
 npm install
-\`\`\`
+
 
 ### 3. Install Frontend Dependencies
 
-\`\`\`bash
 cd frontend
 npm install
-\`\`\`
+
 
 ### 4. Configure Environment Variables
 
@@ -114,9 +113,7 @@ The app is configured for production deployment. When deployed to AWS (EC2/S3 fo
 - All frontend assets are bundled inside `/frontend/dist`
 - Express serves both API and React SPA under the same domain
 
-## 📷 Screenshots
 
-> _[Add some screenshots here of the UI, mobile view, modals, etc.]_
 
 ## 🙏 Acknowledgements
 
