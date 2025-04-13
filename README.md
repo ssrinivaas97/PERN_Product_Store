@@ -74,36 +74,41 @@ npm install
 
 Create a `.env` file in the root with:
 
-\`\`\`
+
 PORT=3000
+
 DATABASE_URL=your_neon_db_connection_url
+
 ARCJET_KEY=your_arcjet_key
-\`\`\`
+
 
 ### 5. Seed the Database (Optional)
 
-\`\`\`bash
+
 cd backend/seeds
+
 node products.js
-\`\`\`
+
 
 This will populate your database with demo products.
 
 ### 6. Run the App in Dev Mode
 
-\`\`\`bash
+
 # In the root folder
+
 npm run dev
-\`\`\`
+
 
 ### 7. Access the App
 
 Open your browser at:
 
-\`\`\`
+
 Frontend: http://localhost:5173
+
 Backend/API: http://localhost:3000/api/products
-\`\`\`
+
 
 ## 🌍 Deployment
 
