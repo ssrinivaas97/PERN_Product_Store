@@ -1,3 +1,7 @@
+# View it here
+
+https://pern-product-store-s7ge.onrender.com/
+
 # 🛍️ Full-Stack Product Management App
 
 This is a fully functional full-stack web application for managing products, built with a modern tech stack including **Node.js**, **Express**, **React**, **Tailwind CSS**, **Zustand**, **Neon (PostgreSQL)**, and deployed on **RENDER**. The app supports all CRUD operations with advanced features like rate limiting, bot protection, responsive UI, and theme customization.
